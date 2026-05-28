@@ -1,6 +1,6 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779922720
-character_body_2d.tscn::PackedScene::4762946463148393085::1779922096::0::1::::<><><>0<>0<><>::
+::res://::1779948369
+character_body_2d.tscn::PackedScene::4762946463148393085::1779924339::0::1::::<><><>0<>0<><>::uid://dvajhwncaa5l2::::res://assets/Player_Free/Idle/0090.png<>uid://kwpc047e3a00::::res://assets/Player_Free/Idle/0091.png<>uid://cbmt5amcmyaxq::::res://assets/Player_Free/Idle/0092.png<>uid://d14h3se80u1wq::::res://assets/Player_Free/Idle/0093.png<>uid://rm7peo6upf5e::::res://assets/Player_Free/Idle/0094.png
 icon.svg::CompressedTexture2D::1924068374523418333::1779866066::1779866070::1::::<><><>0<>0<>868e5d8074f64c4b71ed69e1695e72f6<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1779921539
 free_asteroids.png::CompressedTexture2D::5825567952980460523::1779899352::1779899352::1::::<><><>0<>0<>09a904568acd320a5a38dc69bc73d743<>res://.godot/imported/free_asteroids.png-c5429a7b1de848b2103d1c8bd460939f.ctex::
@@ -222,6 +222,13 @@ Missiles_Icon.png::CompressedTexture2D::2178121185221963170::1779921516::1779921
 Missile_Counter.png::CompressedTexture2D::542444827497160930::1779921516::1779921517::1::::<><><>0<>0<>bd23497a38455689e1015cf852849ce9<>res://.godot/imported/Missile_Counter.png-820507eda0ab4ccba0aaae82c85e8423.ctex::
 Radar_Frame.png::CompressedTexture2D::3470582854325170475::1779921516::1779921517::1::::<><><>0<>0<>b779d9c6389ea49a4d6a126942b3a76e<>res://.godot/imported/Radar_Frame.png-5eee587f2bd642bebfdf750e00acc370.ctex::
 Velocity_Gauges.png::CompressedTexture2D::4354018156472726113::1779921516::1779921517::1::::<><><>0<>0<>c8b941a90c5504b90068192b4bf34ea9<>res://.godot/imported/Velocity_Gauges.png-95025f0249f9c3e0449cd58eb39b157e.ctex::
-::res://scenes/::1779913104
-game.tscn::PackedScene::8870643379915010270::1779913104::0::1::::<><><>0<>0<><>::
-::res://scripts/::1779866158
+::res://scenes/::1779938885
+coin.tscn::PackedScene::4694680300150830784::1779937736::0::1::::<><><>0<>0<><>::uid://du74lwgu24qax::::res://scripts/coin.gd<>uid://rcu0gedjgqyv::::res://assets/coins-chests-etc-2-0-noborders.png
+game.tscn::PackedScene::8870643379915010270::1779938885::0::1::::<><><>0<>0<><>::uid://biofaculevtfe::::res://scenes/player.tscn<>uid://b4jxcv1g3ter4::::res://assets/lunar1b_tileset_compact.png<>uid://bsqb4a0dgtw3s::::res://assets/lunar1b_tileset_visual.png<>uid://dpsibsjdra66c::::res://addons/Moon_Tileset_A2.png<>uid://g6vrcfoa4ns7::::res://addons/Moon_Tileset_B.png<>uid://dvu7acy6a0mer::::res://assets/Moon Tiles/TileSheet-v1.png<>uid://co87iusip14fn::::res://addons/free_asteroids.png<>uid://cyx7ux1wiyr7f::::res://addons/Moon_Tileset_C.png<>uid://c00jlonlupdny::::res://addons/Moon_Tileset_D_Transparent.png<>uid://clcb2r3ajktdw::::res://scenes/platform.tscn<>uid://bl4bhcxd0jskx::::res://addons/Moon_Tileset_C_Transparent.png<>uid://b75ex0vouocea::::res://scenes/coin.tscn<>uid://74jwmbga13i1::::res://scenes/killzone.tscn
+killzone.tscn::PackedScene::2306496323784248938::1779938880::0::1::::<><><>0<>0<><>::uid://djd8s4jclhp6d::::res://scripts/killzone.gd
+platform.tscn::PackedScene::5549157272504794792::1779934114::0::1::::<><><>0<>0<><>::uid://g6vrcfoa4ns7::::res://addons/Moon_Tileset_B.png
+player.tscn::PackedScene::2977136442766800450::1779937707::0::1::::<><><>0<>0<><>::uid://dvajhwncaa5l2::::res://assets/Player_Free/Idle/0090.png<>uid://cawwhgwnxgchi::::res://scripts/player.gd<>uid://kwpc047e3a00::::res://assets/Player_Free/Idle/0091.png<>uid://cbmt5amcmyaxq::::res://assets/Player_Free/Idle/0092.png<>uid://d14h3se80u1wq::::res://assets/Player_Free/Idle/0093.png<>uid://rm7peo6upf5e::::res://assets/Player_Free/Idle/0094.png
+::res://scripts/::1779938880
+coin.gd::GDScript::8630880614221522543::1779937883::0::1::::<>Area2D<><>0<>0<><>::
+killzone.gd::GDScript::7799192119321613381::1779938880::0::1::::<>Area2D<><>0<>0<><>::
+player.gd::GDScript::4819606302121146302::1779930351::0::1::::<>CharacterBody2D<><>0<>0<><>::
