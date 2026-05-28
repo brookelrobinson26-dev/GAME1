@@ -35,6 +35,8 @@ radius = 20.0
 height = 96.0
 
 [node name="player" type="CharacterBody2D" unique_id=617738578]
+z_index = 5
+collision_layer = 2
 script = ExtResource("1_tuyoq")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=17403511]
@@ -42,7 +44,7 @@ position = Vector2(-1, -54)
 sprite_frames = SubResource("SpriteFrames_1kp85")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.791604
+frame_progress = 0.23645239
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1764432007]
 position = Vector2(0, -54)

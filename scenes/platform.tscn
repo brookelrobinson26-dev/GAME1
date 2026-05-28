@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://clcb2r3ajktdw"]
+
+[ext_resource type="Texture2D" uid="uid://g6vrcfoa4ns7" path="res://addons/Moon_Tileset_B.png" id="1_ba0x2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nlgqw"]
+radius = 60.016663
+
+[node name="Platform" type="AnimatableBody2D" unique_id=474916823]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=10049513]
+texture = ExtResource("1_ba0x2")
+region_enabled = true
+region_rect = Rect2(9, 622, 133, 103)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2058717099]
+position = Vector2(-5, 3)
+shape = SubResource("CircleShape2D_nlgqw")
