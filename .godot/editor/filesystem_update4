@@ -1,1 +1,5 @@
 res://scenes/game.tscn
+res://scenes/alien_zombie.tscn
+res://scripts/alien_zombie.gd
+res://scenes/killzone.tscn
+res://scripts/killzone.gd
